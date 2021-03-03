@@ -21,7 +21,7 @@ public class fecha {
 
 	public boolean valida() {
 
-		validar();
+		validarFecha();
 
 // Determinamos la cantidad de días del mes:
 		int diasMes = 0;
@@ -61,7 +61,7 @@ public class fecha {
 	 * @return 
 	 * 
 	 */
-	public boolean validar() {
+	public boolean validarFecha() {
 		if (dia < 1 || dia > 31)
 			return false;
 		if (mes < 1 || mes > 12)
